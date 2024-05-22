@@ -1,0 +1,66 @@
+[2024-05-21 22:21:24] [ ERROR] [OdontologoServiceTest:31] IO Exception: "java.nio.file.NoSuchFileException: create.sql"; "create.sql"; SQL statement:
+RUNSCRIPT FROM 'create.sql' [90031-224]
+[2024-05-21 22:28:23] [ ERROR] [OdontologoServiceTest:31] Column "13245" not found; SQL statement:
+
+
+INSERT INTO ODONTOLOGOS VALUES(DEFAULT, "13245", "ROBERTO", "MARTINEZ") [42122-224]
+[2024-05-21 22:29:12] [ INFO ] [OdontologoDaoH2:48] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS ([*]DEFAULT, ?,?,?)"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS (DEFAULT, ?,?,?) [42001-224]
+[2024-05-21 22:34:37] [ INFO ] [OdontologoDaoH2:48] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS ([*]DEFAULT,?,?,?)"; expected "identifier"; SQL statement:
+INSERT INTO ODONTOLOGOS (DEFAULT,?,?,?) [42001-224]
+[2024-05-21 22:40:03] [ ERROR] [OdontologoServiceTest:31] Column "13245" not found; SQL statement:
+
+
+
+INSERT INTO ODONTOLOGOS VALUES(DEFAULT, "13245", "ROBERTO", "MARTINEZ") [42122-224]
+[2024-05-21 22:41:37] [ ERROR] [OdontologoServiceTest:31] Column "3245" not found; SQL statement:
+
+
+
+INSERT INTO ODONTOLOGOS VALUES(1,"3245", "ROBERTO", "MARTINEZ") [42122-224]
+[2024-05-21 22:42:14] [ INFO ] [OdontologoDaoH2:76] Odontologo listado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:42:29] [ INFO ] [OdontologoDaoH2:76] Odontologo listado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:44:20] [ INFO ] [OdontologoDaoH2:39] Odontologo guardado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:55:34] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado Odontologo{id=2, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:55:42] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado Odontologo{id=3, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:55:43] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:55:43] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=2, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:55:43] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=3, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:03] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado Odontologo{id=4, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:03] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:03] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=2, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:03] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=3, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:03] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=4, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:25] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado Odontologo{id=5, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:25] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:25] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=2, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:25] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=3, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:25] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=4, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 22:58:25] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=5, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:00:10] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado Odontologo{id=6, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:00:10] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:00:10] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=2, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:00:10] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=3, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:00:10] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=4, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:00:10] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=5, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:00:10] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=6, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado Odontologo{id=7, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado Odontologo{id=8, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=2, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=3, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=4, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=5, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=6, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=7, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:03:00] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=8, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:38] Odontologo guardado Odontologo{id=9, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=1, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=2, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=3, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=4, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=5, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=6, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=7, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=8, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
+[2024-05-21 23:05:29] [ INFO ] [OdontologoDaoH2:78] Odontologo listado Odontologo{id=9, numeroDeMatricula='234567', nombre='Juan', apellido='Perez'}
